@@ -7,99 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-    body {
-    font-family: Arial;
-    margin: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-color: black;
-    color: white;
-    padding: 15px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 10px;
-    text-decoration: none;
-}
-
-.hero {
-    text-align: center;
-    padding: 40px;
-    background-color: grey;
-    color: white;
-}
-
-.products {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-.card {
-    background: white;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #ccc;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: black;
-    color: white;
-}
-.card p {
-    margin: 5px 0;
-}
-
-.card p:first-of-type {
-    font-weight: bold;
-}
-
-@media (max-width: 600px) {
-
-
-    nav {
-        display: flex;
-        flex-direction: column;
-    }
-
-    nav a {
-        margin: 5px 0;
-    }
-
-
-    .hero {
-        padding: 30px 10px;
-    }
-
-    .hero h2 {
-        font-size: 20px;
-    }
-
-
-    .products {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 90%;
-    }
-
-   
-    section {
-        padding: 25px 15px;
-    }
-}
-
-</style>
 
 <body>
 
@@ -110,24 +17,148 @@ footer {
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="Details.html">Products</a>
-        <a href="New arrivals.html">New Arrivals</a>
+   
     </nav>
 </header>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - UrbanDrip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
 <section>
-    <h2>Contact Us</h2>
+    <h2>All Products</h2>
+    <p>Browse our full range of streetwear. New items are added every month.</p>
 
-    <form class="contact-form">
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email Address" required>
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-    </form>
+    <h2>Hoodies</h2>
+    <div class="products">
 
-    <p><strong>Email:</strong> urbandrip@gmail.com</p>
-    <p><strong>Phone:</strong> 012 345 6789</p>
+        <div class="card">
+            <div class="placeholder">Black Hoodie</div>
+            <p>Black Hoodie</p>
+            <h2>R520</h2>
+        </div>
 
+        <div class="card">
+            <div class="placeholder">Grey Hoodie</div>
+            <p>Grey Hoodie</p>
+            <h2>R520</h2>
+        </div>
+
+        <div class="card">
+            <div class="placeholder">Oversized Hoodie</div>
+            <p>Oversized Hoodie</p>
+            <h2>R550</h2>
+        </div>
+
+    </div>
+
+    <h2>T-Shirts</h2>
+    <div class="products">
+
+        <div class="card">
+            <div class="placeholder">Graphic Tee</div>
+            <p>Graphic Tee</p>
+            <h2>R220</h2>
+        </div>
+
+        <div class="card">
+            <div class="placeholder">Plain White Tee</div>
+            <p>Plain White Tee</p>
+            <h2>R180</h2>
+        </div>
+
+        <div class="card">
+            <div class="placeholder">Striped Tee</div>
+            <p>Striped Tee</p>
+            <h2>R200</h2>
+        </div>
+
+    </div>
+
+    <h2>Bottoms</h2>
+    <div class="products">
+
+        <div class="card">
+            <div class="placeholder">Black Joggers</div>
+            <p>Black Joggers</p>
+            <h2>R390</h2>
+        </div>
+
+        <div class="card">
+            <div class="placeholder">Cargo Pants</div>
+            <p>Cargo Pants</p>
+            <h2>R480</h2>
+        </div>
+
+        <div class="card">
+            <div class="placeholder">Shorts</div>
+            <p>Urban Shorts</p>
+            <h2>R280</h2>
+        </div>
+
+    </div>
+
+    <h2>Footwear</h2>
+    <div class="products">
+
+        <div class="card">
+            <div class="placeholder">White Sneakers</div>
+            <p>White Sneakers</p>
+            <h2>R750</h2>
+        </div>
+
+        <div class="card">
+            <div class="placeholder">Street Sneakers</div>
+            <p>Street Sneakers</p>
+            <h2>R950</h2>
+        </div>
+
+        <div class="card">
+            <div class="placeholder">Slides</div>
+            <p>Urban Slides</p>
+            <h2>R320</h2>
+        </div>
+
+    </div>
+
+    <h2>Accessories</h2>
+    <div class="products">
+
+        <div class="card">
+            <div class="placeholder">Snapback Cap</div>
+            <p>Snapback Cap</p>
+            <h2>R200</h2>
+        </div>
+
+        <div class="card">
+            <div class="placeholder">Bucket Hat</div>
+            <p>Bucket Hat</p>
+            <h2>R180</h2>
+        </div>
+
+        <div class="card">
+            <div class="placeholder">Beanie</div>
+            <p>Knit Beanie</p>
+            <h2>R150</h2>
+        </div>
+
+    </div>
 </section>
+
+<footer>
+    <p>© 2026 UrbanDrip Clothing</p>
+</footer>
+
+</body>
+</html>
 
 <footer>
     <p>© 2026 UrbanDrip Clothing</p>
